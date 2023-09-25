@@ -6,7 +6,8 @@ BioProtIS is an innovative computational pipeline designed for the automated ana
 
 * **Software Required:**
     + Python 3.10 or higher
-        <ul> packages
+        + packages
+        <ul>
             <li>`os`,`shutil`,`subprocess,`csv`,`matplotlib.pyplot,`re`,`openai`, and `argparse`.</li>
         </ul>
     + Python 2
@@ -18,8 +19,10 @@ BioProtIS is an innovative computational pipeline designed for the automated ana
     + FPOCKET (https://github.com/Discngine/fpocket.git or via conda)
     + Autodock Vina (http://vina.scripps.edu/)
     + #batch_download.sh
-      wget https://www.rcsb.org/scripts/batch_download.sh
-      chmod +x batch_download.sh
+      <ul>
+          <li>wget https://www.rcsb.org/scripts/batch_download.sh</li>
+          <li>chmod +x batch_download.sh</li>
+      </ul>
     + PDB local database
       wget https://ftp.wwpdb.org/pub/pdb/derived_data/pdb_seqres.txt.gz
       gunzip pdb_seqres.txt.gz
