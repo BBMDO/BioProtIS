@@ -1,0 +1,7 @@
+#####
+integrator            = steep
+emtol                 = 500
+emstep                = 0.01
+nsteps                = 1000
+nstcgsteep            = 100
+######
