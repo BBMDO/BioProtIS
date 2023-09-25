@@ -64,14 +64,14 @@ BioProtIS is an innovative computational pipeline designed for the automated ana
       +  Step 5 -  results_aggregator.py
          Description:
          This Python script automates the aggregation and analysis of molecular docking results. It navigates through a directory structure, extracts energy values, and creates a structured output file named "docking_results_final.txt." The script also associates additional information, such as docking annotations, with each result. The generated output facilitates the comprehensive analysis and visualization of molecular docking experiments, making it a valuable tool for researchers in computational biology and drug discovery.
-   
-**Usage:**
+
+* **Usages:**
     + python fasta_file_processing.py input.fas
     + python homology_folder_processing.py -f Seqs/Homology/
     + python modeller_homology.py or python alphafold_homology.py
     + python blind_docking.py or python pocket_docking.py
-   
-**Included a document called substrate_list.txt, containing the list of substrates:**
+
+* **Included a document called substrate_list.txt, containing the list of substrates:**
     + python results_aggregator.py
     + Version v1.0
-
+   
