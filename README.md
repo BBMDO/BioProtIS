@@ -24,12 +24,15 @@ BioProtIS is an innovative computational pipeline designed for the automated ana
           <li>chmod +x batch_download.sh</li>
       </ul>
     + PDB local database
-      wget https://ftp.wwpdb.org/pub/pdb/derived_data/pdb_seqres.txt.gz
-      gunzip pdb_seqres.txt.gz
-      sed -i 's/ /_/g' pdb_seqres.txt
-      mkdir db
-      makeblastdb -in pdb_seqres.txt -dbtype prot -out db/db
- 
+      <ul>
+          <li>wget https://ftp.wwpdb.org/pub/pdb/derived_data/pdb_seqres.txt.gz</li>
+          <li>gunzip pdb_seqres.txt.gz</li>
+          <li>sed -i 's/ /_/g' pdb_seqres.txt</li>
+          <li>mkdir db</li>
+          <li>makeblastdb -in pdb_seqres.txt -dbtype prot -out db/db</li>
+      
+      </ul>
+
   * **BioProtIS Installation:**
       + No installation is needed. Simply unzip and use the scripts, providing the directory path in the scripts.
   
@@ -59,8 +62,8 @@ BioProtIS is an innovative computational pipeline designed for the automated ana
         This Python script automates pocket molecular docking simulations using AutoDock Vina, while also performing preliminary analysis of substrates. It prepares protein structures, calculates docking parameters, and executes the docking simulations. Additionally, it analyzes substrate properties and generates configuration files for docking. The script provides flexibility to customize parameters such as energy range and exhaustiveness. It is designed to streamline the process of molecular docking with a focus on substrate analysis, making it a valuable tool for computational biology and drug discovery research.
    
       +  Step 5 -  results_aggregator.py
-      +  Description:
-      +   This Python script automates the aggregation and analysis of molecular docking results. It navigates through a directory structure, extracts energy values, and creates a structured output file named "docking_results_final.txt." The script also associates additional information, such as docking annotations, with each result. The generated output facilitates the comprehensive analysis and visualization of molecular docking experiments, making it a valuable tool for researchers in computational biology and drug discovery.
+             Description:
+                  This Python script automates the aggregation and analysis of molecular docking results. It navigates through a directory structure, extracts energy values, and creates a structured output file named "docking_results_final.txt." The script also associates additional information, such as docking annotations, with each result. The generated output facilitates the comprehensive analysis and visualization of molecular docking experiments, making it a valuable tool for researchers in computational biology and drug discovery.
    
 **Usage:**
 python fasta_file_processing.py input.fas
