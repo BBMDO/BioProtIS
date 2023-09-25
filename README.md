@@ -57,7 +57,7 @@ BioProtIS is an innovative computational pipeline designed for the automated ana
         * Description:
         This Python script automates blind molecular docking simulations for a list of substrates using the AutoDock Vina software. It prepares protein structures, calculates docking parameters, and executes the docking simulations, saving the results in an organized manner. The script is highly configurable, allowing you to specify various parameters such as energy range, exhaustiveness, and more.
    
-      +  Step 4b - pocket_docking.py
+      + Step 4b - pocket_docking.py
         * Description:
         This Python script automates pocket molecular docking simulations using AutoDock Vina, while also performing preliminary analysis of substrates. It prepares protein structures, calculates docking parameters, and executes the docking simulations. Additionally, it analyzes substrate properties and generates configuration files for docking. The script provides flexibility to customize parameters such as energy range and exhaustiveness. It is designed to streamline the process of molecular docking with a focus on substrate analysis, making it a valuable tool for computational biology and drug discovery research.
    
