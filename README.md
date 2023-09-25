@@ -38,7 +38,7 @@ BioProtIS is an innovative computational pipeline designed for the automated ana
   
   * **Scripts description:**
       + Step1 - fasta_file_processing.py
-        Description:
+        + Description:
         This Python script performs several tasks for processing FASTA files. It reads an input FASTA file containing amino acid sequences, creates a 'Seqs' folder, separates the input file into individual files, changes their headers, executes a blastp command within the folders, and manages the organization of files into different folders based on specific criteria. This script is designed to automate and streamline the initial steps of sequence analysis and homology search.
    
       + Step2 - homology_folder_processing.py
