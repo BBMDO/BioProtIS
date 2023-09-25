@@ -6,8 +6,7 @@ BioProtIS is an innovative computational pipeline designed for the automated ana
 
 * **Software Required:**
     + Python 3.10 or higher
-      + packages
-        <ul>
+        <ul> packages
             <li>`os`,`shutil`,`subprocess,`csv`,`matplotlib.pyplot,`re`,`openai`, and `argparse`.</li>
         </ul>
     + Python 2
