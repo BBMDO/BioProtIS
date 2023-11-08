@@ -72,7 +72,7 @@ for folder_name in os.listdir():
             with open(os.path.join(path_root, "Seqs", "Docking", folder_name, f"{substrate}_conf.txt"), "w") as file:
                 file.write(f"receptor = protein_no_spaces.pdbqt\n")
                 file.write(f"ligand = {os.path.join(path_root, substrate)}\n")
-                file.write(f"out = poses.pdbqt\n")
+                file.write(f"out = {substrate}_poses.pdbqt\n")
                 file.write("energy_range = 4\n")
                 file.write("exhaustiveness = 50\n")
                 file.write(f"center_x = {cx}\n")
