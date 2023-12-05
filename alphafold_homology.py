@@ -6,7 +6,7 @@ import shutil
 from subprocess import call
 import subprocess
 
-path_root = "."
+path_root = "~/BioProtIS"
 path_seqs = os.path.join(path_root, "Seqs")
 path_docking = os.path.join(path_seqs, "Docking")
 # Create the Docking folder inside Seqs.
