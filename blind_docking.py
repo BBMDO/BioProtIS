@@ -7,7 +7,7 @@
 ###########
 import os
 import re
-path_root = "."
+path_root = "~/BioProtIS"
 substrate_list_path = os.path.join(path_root, "substrate_list.txt") 
 
 with open(substrate_list_path, "r") as substrate_file: 
