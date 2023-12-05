@@ -5,7 +5,7 @@ import shutil
 import csv
 import matplotlib.pyplot as plt
 # Set the path_root
-path_root = '.'
+path_root = "~/BioProtIS"
 # Enter the folder path_root/Seqs/Docking
 path_docking = os.path.join(path_root, 'Seqs', 'Docking')
 os.chdir(path_docking)
