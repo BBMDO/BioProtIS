@@ -17,6 +17,8 @@ for folder_name in os.listdir():
     
     if os.path.isdir(folder_path):
         os.chdir(folder_path)
+
+        energy_value = None
         
         # Find all files with the suffix "result_docking.txt"
         result_files = [file for file in os.listdir() if file.endswith("result_docking.txt")]
